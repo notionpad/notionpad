@@ -1,0 +1,7 @@
+﻿language: csharp
+mono: none
+dotnet: 2.1.401
+solution: Notionpad.sln
+script:
+ - dotnet build Notionpad.sln
+ - dotnet test Tests/Notionpad.UnitTests/Notionpad.UnitTests.csproj
