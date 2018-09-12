@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notionpad", "Notionpad\Notionpad.csproj", "{3804B737-E380-496B-AE3A-7EEA10591BF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notionpad", "Notionpad\Notionpad.csproj", "{3804B737-E380-496B-AE3A-7EEA10591BF5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B335541D-1C4B-4D30-8969-4E81D5A70A34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notionpad.UnitTests", "Tests\Notionpad.UnitTests\Notionpad.UnitTests.csproj", "{B30E250E-4B1E-48D8-9A6F-F3FE18AC74E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notionpad.UnitTests", "Tests\Notionpad.UnitTests\Notionpad.UnitTests.csproj", "{B30E250E-4B1E-48D8-9A6F-F3FE18AC74E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{797EA39B-0F97-447E-A9D3-2F0E91AFD361}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
