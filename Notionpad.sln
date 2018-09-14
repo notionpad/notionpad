@@ -7,12 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notionpad", "Notionpad\Noti
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B335541D-1C4B-4D30-8969-4E81D5A70A34}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notionpad.UnitTests", "Tests\Notionpad.UnitTests\Notionpad.UnitTests.csproj", "{B30E250E-4B1E-48D8-9A6F-F3FE18AC74E2}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6302FD21-22A0-4B2B-885F-4CAE356FAC91}"
 	ProjectSection(SolutionItems) = preProject
 		.travis.yml = .travis.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notionpad.UnitTests", "Tests\Notionpad.UnitTests\Notionpad.UnitTests.csproj", "{889CE344-21A2-4C0B-8898-2E94D0340F1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,16 +24,16 @@ Global
 		{3804B737-E380-496B-AE3A-7EEA10591BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3804B737-E380-496B-AE3A-7EEA10591BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3804B737-E380-496B-AE3A-7EEA10591BF5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B30E250E-4B1E-48D8-9A6F-F3FE18AC74E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B30E250E-4B1E-48D8-9A6F-F3FE18AC74E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B30E250E-4B1E-48D8-9A6F-F3FE18AC74E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B30E250E-4B1E-48D8-9A6F-F3FE18AC74E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889CE344-21A2-4C0B-8898-2E94D0340F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889CE344-21A2-4C0B-8898-2E94D0340F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889CE344-21A2-4C0B-8898-2E94D0340F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889CE344-21A2-4C0B-8898-2E94D0340F1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B30E250E-4B1E-48D8-9A6F-F3FE18AC74E2} = {B335541D-1C4B-4D30-8969-4E81D5A70A34}
+		{889CE344-21A2-4C0B-8898-2E94D0340F1D} = {B335541D-1C4B-4D30-8969-4E81D5A70A34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {918C8304-8572-4152-BD11-306AE103A4DD}
