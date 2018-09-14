@@ -5,3 +5,7 @@ solution: Notionpad.sln
 script:
  - dotnet build Notionpad.sln
  - dotnet test Tests/Notionpad.UnitTests/Notionpad.UnitTests.csproj
+branches:
+ only:
+  - master
+  - develop
